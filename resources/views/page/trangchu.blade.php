@@ -73,10 +73,39 @@
                             </div>
                             @endforeach
                         </div>
+                        <div class="row">{{$new_product->links()}}</div>
                     </div> <!-- .beta-products-list -->
 
+                    <!-- <div class="beta-products-list">
+                        <h4>Top Products - san pham khuyen mai</h4>
+                        <div class="beta-products-details">
+                            <p class="pull-left">found  products</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="row">
 
-                </div>
+                            <div class="col-sm-3">
+                                <div class="single-item">
+                                    <div class="single-item-header">
+                                        <a href="/product_detail"><img src="" alt=""></a>
+                                    </div>
+                                    <div class="single-item-body">
+                                        <p class="single-item-title">Sample Woman Top</p>
+                                        <p class="single-item-price">
+                                            <span>$34.55</span>
+                                        </p>
+                                    </div>
+                                    <div class="single-item-caption">
+                                        <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
+                                        <a class="beta-btn primary" href="/product_detail">Details <i class="fa fa-chevron-right"></i></a>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div> -->
             </div> <!-- end section with sidebar and main content -->
 
 
