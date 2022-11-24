@@ -10,7 +10,7 @@ class ProductType extends Model
     use HasFactory;
     protected $table = "type_products";
 
-    public function products(){
-        return $this->hasMany('App\Product');
+    public function products() {
+        return $this->hasMany('App\Product', 'id_type', 'id');
     }
 }
